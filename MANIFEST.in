@@ -1,0 +1,11 @@
+include README.md
+include requirements.txt
+include LICENSE
+include pyproject.toml
+recursive-include database *.py
+recursive-include database *.json
+recursive-include database *.md
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.egg-info 

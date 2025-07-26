@@ -1,3 +1,55 @@
+Metadata-Version: 2.4
+Name: leenaai-firestoredb
+Version: 1.0.0
+Summary: Firestore and ChromaDB package for LeenaAI real estate chatbot
+Home-page: https://github.com/leenaai/leenaai-firestoredb
+Author: LeenaAI Team
+Author-email: LeenaAI Team <info@leenaai.com>
+Maintainer-email: LeenaAI Team <info@leenaai.com>
+License: MIT
+Project-URL: Homepage, https://github.com/leenaai/leenaai-firestoredb
+Project-URL: Documentation, https://github.com/leenaai/leenaai-firestoredb/blob/main/README.md
+Project-URL: Repository, https://github.com/leenaai/leenaai-firestoredb
+Project-URL: Bug Tracker, https://github.com/leenaai/leenaai-firestoredb/issues
+Keywords: firestore,chroma,vector,real-estate,chatbot,database
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-cloud-firestore>=2.11.0
+Requires-Dist: google-cloud-storage>=2.10.0
+Requires-Dist: google-auth>=2.17.0
+Requires-Dist: google-api-python-client>=2.95.0
+Requires-Dist: chromadb>=0.4.0
+Requires-Dist: sentence-transformers>=2.2.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pandas>=1.5.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: aiohttp>=3.8.0
+Requires-Dist: asyncio-mqtt>=0.11.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: pytz>=2023.3
+Requires-Dist: python-dateutil>=2.8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
 # LeenaAI FirestoreDB Package
 
 A comprehensive Firestore and ChromaDB package for the LeenaAI real estate chatbot, providing database integration with vector search capabilities.

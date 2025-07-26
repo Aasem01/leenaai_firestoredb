@@ -1,0 +1,2 @@
+dist
+leenaai_firestoredb
